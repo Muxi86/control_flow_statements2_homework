@@ -11,7 +11,7 @@ def main(a,b):
     
     if a > b:
         ans = a
-    else:
+    if a < b:
         ans = b
     if a == b:
         ans = 0
